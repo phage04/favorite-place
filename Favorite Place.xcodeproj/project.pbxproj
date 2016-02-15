@@ -14,6 +14,7 @@
 		DE89DEC51C7228E800CA9E58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE89DEC31C7228E800CA9E58 /* LaunchScreen.storyboard */; };
 		DE89DED01C7228E800CA9E58 /* Favorite_PlaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE89DECF1C7228E800CA9E58 /* Favorite_PlaceTests.swift */; };
 		DE89DEDB1C7228E800CA9E58 /* Favorite_PlaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE89DEDA1C7228E800CA9E58 /* Favorite_PlaceUITests.swift */; };
+		DE89DEE91C72375700CA9E58 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE89DEE81C72375700CA9E58 /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DE89DED61C7228E800CA9E58 /* Favorite PlaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Favorite PlaceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE89DEDA1C7228E800CA9E58 /* Favorite_PlaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite_PlaceUITests.swift; sourceTree = "<group>"; };
 		DE89DEDC1C7228E800CA9E58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE89DEE81C72375700CA9E58 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				DE89DEC11C7228E800CA9E58 /* Assets.xcassets */,
 				DE89DEC31C7228E800CA9E58 /* LaunchScreen.storyboard */,
 				DE89DEC61C7228E800CA9E58 /* Info.plist */,
+				DE89DEE81C72375700CA9E58 /* DetailVC.swift */,
 			);
 			path = "Favorite Place";
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				DE89DEBD1C7228E800CA9E58 /* ViewController.swift in Sources */,
 				DE89DEBB1C7228E800CA9E58 /* AppDelegate.swift in Sources */,
+				DE89DEE91C72375700CA9E58 /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
